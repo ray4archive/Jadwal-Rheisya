@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="808dp"
+        android:layout_height="1093dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hijau" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="244dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="604dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/inorasi" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adlam_display"
+        android:text="Jadwal Pelajaran"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <Button
+        android:id="@+id/sepuluh2"
+        android:layout_width="117dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="436dp"
+        android:backgroundTint="#FE7000"
+        android:fontFamily="@font/audiowide"
+        android:text="X RPL 2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/sepuluh"
+        android:layout_width="117dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="436dp"
+        android:backgroundTint="#FE7000"
+        android:fontFamily="@font/audiowide"
+        android:text="X RPL 1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:iconTint="#004D40"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sebelas1"
+        android:layout_width="117dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="324dp"
+        android:backgroundTint="#FE7000"
+        android:fontFamily="@font/audiowide"
+        android:text="XI RPL 1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/duabelas2"
+        android:layout_width="117dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="216dp"
+        android:backgroundTint="#FE7000"
+        android:fontFamily="@font/audiowide"
+        android:text="XII RPL 2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/duabelas1"
+        android:layout_width="117dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="216dp"
+        android:backgroundTint="#FE7000"
+        android:fontFamily="@font/audiowide"
+        android:text="XII RPL 1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sebelas2"
+        android:layout_width="117dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="#FE7000"
+        android:fontFamily="@font/audiowide"
+        android:text="XI RPL 2"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sepuluh3"
+        android:layout_width="117dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#FE7000"
+        android:fontFamily="@font/audiowide"
+        android:text="X RPL 3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
